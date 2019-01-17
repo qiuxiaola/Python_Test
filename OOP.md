@@ -224,7 +224,8 @@
     - __new__： 对象实例化方法，此函数比较特殊，一般不需要使用
     - __call__: 对象当函数使用时调用
     - __str__: 对象当做字符串使用时调用
-    - __repr__： 返回字符串，[__str__和__repr__的区别]（https://blog.csdn.net/luckytanggu/article/details/53649156）
+    - __repr__： 返回字符串，
+    - [__str__和__repr__的区别](https://blog.csdn.net/luckytanggu/article/details/53649156）
  - 描述符相关
     - __set__
     - __get__
@@ -248,7 +249,8 @@
             - 返回值可以是任意值，推荐返回布尔值
             - 参看案例
             
-# 8. 类和对象的三种方法 [区别]（http://blog.chinaunix.net/uid-26602509-id-3087296.html）
+# 8. 类和对象的三种方法 
+ - [类和对象的三种方法区别]（http://blog.chinaunix.net/uid-26602509-id-3087296.html）
  - 实例方法
     - 需要实例化对象才能使用的方法，使用过程中可能需要截止对象的其他对象的方法完成
  - 静态方法
